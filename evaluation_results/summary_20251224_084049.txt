@@ -1,0 +1,22 @@
+evaluation summary
+
+
+baseline (no rag):
+  accuracy: 46.81% (22/47)
+  avg time: 8.50s
+
+rag:
+  accuracy: 40.43% (19/47)
+  avg time: 8.38s
+
+multi-agent:
+  accuracy: 48.94% (23/47)
+  avg time: 69.85s
+  wolfram verification: 76.60%
+
+comparison
+
+ranking by accuracy:
+  1. multi-agent: 48.94%
+  2. baseline (no rag): 46.81%
+  3. rag: 40.43%
