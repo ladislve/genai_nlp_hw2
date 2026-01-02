@@ -1,0 +1,57 @@
+EVALUATION SUMMARY
+Date: 2026-01-02 10:18:30
+
+System           Value Acc Approach Acc   Combined   Avg Time
+MultiAgent           76.7%        76.7%      0.817     20.83s
+RAG+Verify           63.3%        73.3%      0.737     11.19s
+Baseline             36.7%        83.3%      0.589      5.59s
+
+DETAILED METRICS
+
+Baseline:
+Total tasks: 30
+Completed: 28, Errors: 2
+
+VALUE METRICS:
+  Correct: 11/30 (36.7%)
+  Avg Score: 0.367
+
+APPROACH METRICS:
+  Correct: 25/30 (83.3%)
+  Avg Score: 0.923
+
+COMBINED: 0.589
+Time: 5.59s avg, 170.1s total
+
+RAG+Verify:
+Total tasks: 30
+Completed: 29, Errors: 1
+
+VALUE METRICS:
+  Correct: 19/30 (63.3%)
+  Avg Score: 0.663
+
+APPROACH METRICS:
+  Correct: 22/30 (73.3%)
+  Avg Score: 0.847
+
+COMBINED: 0.737
+Time: 11.19s avg, 333.7s total
+Code verified: 24
+
+MultiAgent:
+Total tasks: 30
+Completed: 30, Errors: 0
+
+VALUE METRICS:
+  Correct: 23/30 (76.7%)
+  Avg Score: 0.767
+
+APPROACH METRICS:
+  Correct: 23/30 (76.7%)
+  Avg Score: 0.893
+
+COMBINED: 0.817
+Time: 20.83s avg, 625.0s total
+Wolfram verified: 1
+Code verified: 18
